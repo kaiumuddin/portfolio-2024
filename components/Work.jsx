@@ -10,7 +10,6 @@ import "swiper/css/pagination";
 import { Pagination } from "swiper/modules";
 import { Button } from "./ui/button";
 import ProjectCard from "./ProjectCard";
-import CarousalShadcn from "./CarousalShadcn";
 
 // components
 
