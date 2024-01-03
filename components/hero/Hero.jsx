@@ -8,10 +8,10 @@ import {
     RiArrowDownSLine,
 } from "react-icons/ri";
 import Link from "next/link";
-import { Button } from "./ui/button";
-import Socials from "./Socials";
-import DevImg from "./DevImg";
-import Badge from "./Badge";
+import { Button } from "../ui/button";
+import Socials from "../Socials";
+import DevImg from "../DevImg";
+import Badge from "../Badge";
 
 // components
 

@@ -1,8 +1,8 @@
 // components
-import About from "@/components/About";
-import Hero from "@/components/Hero";
-import Services from "@/components/Services";
-import Work from "@/components/Work";
+import About from "@/components/about/About";
+import Hero from "@/components/hero/Hero";
+import Services from "@/components/service/Services";
+import Work from "@/components/work/Work";
 
 export default function Home() {
   return (

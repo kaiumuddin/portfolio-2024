@@ -4,7 +4,7 @@ import { useState, useEffect } from "react";
 
 // components
 import ThemeToggler from "./ThemeToggler";
-import Logo from "./Logo";
+import Logo from "../Logo";
 import Nav from "./Nav";
 import MobileNav from "./MobileNav";
 import { usePathname } from "next/navigation";

@@ -8,9 +8,9 @@ import {
 } from "@/components/ui/sheet";
 
 import { AlignJustify } from "lucide-react";
-import Logo from "./Logo";
+import Logo from "../Logo";
 import Nav from "./Nav";
-import Socials from "./Socials";
+import Socials from "../Socials";
 
 const MobileNav = () => {
   return (
