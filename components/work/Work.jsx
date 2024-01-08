@@ -1,6 +1,9 @@
 "use client";
 import Link from "next/link";
 
+// import data
+import projectData from '@/data/project'
+
 // import swiper styles
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
@@ -13,53 +16,53 @@ import ProjectCard from "./ProjectCard";
 
 // components
 
-const projectData = [
-  {
-    image: "/work/3.png",
-    category: "react js",
-    name: "Nexa Website",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam voluptate natus possimus!",
-    link: "/",
-    github: "/",
-  },
-  {
-    image: "/work/1.png",
-    category: "next js",
-    name: "Nexa Website",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam voluptate natus possimus!",
-    link: "/",
-    github: "/",
-  },
-  {
-    image: "/work/2.png",
-    category: "next js",
-    name: "Nexa Website",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam voluptate natus possimus!",
-    link: "/",
-    github: "/",
-  },
-  {
-    image: "/work/3.png",
-    category: "full stack",
-    name: "Nexa Website",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam voluptate natus possimus!",
-    link: "/",
-    github: "/",
-  },
-  {
-    image: "/work/1.png",
-    category: "next js",
-    name: "Nexa Website",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam voluptate natus possimus!",
-    link: "/",
-    github: "/",
-  },
-];
+// const projectData = [
+//   {
+//     image: "/work/3.png",
+//     category: "react js",
+//     name: "Nexa Website",
+//     description:
+//       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam voluptate natus possimus!",
+//     link: "/",
+//     github: "/",
+//   },
+//   {
+//     image: "/work/1.png",
+//     category: "next js",
+//     name: "Nexa Website",
+//     description:
+//       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam voluptate natus possimus!",
+//     link: "/",
+//     github: "/",
+//   },
+//   {
+//     image: "/work/2.png",
+//     category: "next js",
+//     name: "Nexa Website",
+//     description:
+//       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam voluptate natus possimus!",
+//     link: "/",
+//     github: "/",
+//   },
+//   {
+//     image: "/work/3.png",
+//     category: "full stack",
+//     name: "Nexa Website",
+//     description:
+//       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam voluptate natus possimus!",
+//     link: "/",
+//     github: "/",
+//   },
+//   {
+//     image: "/work/1.png",
+//     category: "next js",
+//     name: "Nexa Website",
+//     description:
+//       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam voluptate natus possimus!",
+//     link: "/",
+//     github: "/",
+//   },
+// ];
 
 const Work = () => {
   return (
@@ -88,7 +91,7 @@ const Work = () => {
 const CarousalSwiper = () => {
   return (
     <Swiper
-      className="h-[480px]"
+      className="h-[550px]"
       slidesPerView={1}
       breakpoints={{
         640: {

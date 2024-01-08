@@ -5,7 +5,6 @@ import { Badge } from "../ui/badge";
 import Link from "next/link";
 
 const ProjectCard = ({ project }) => {
-  console.log(project);
   return (
     <Card className="group overflow-hidden relative">
       <CardHeader className="p-0">
@@ -37,9 +36,18 @@ const ProjectCard = ({ project }) => {
         </div>
       </CardHeader>
       <div className="h-full px-8 py-6">
-        <Badge className="uppercase text-sm font-medium mb-2 absolute top-4 left-5 ">
-          {project.category}
-        </Badge>
+        <div className="w-full flex flex-wrap gap-x-1">
+          {project.category.split(",").map((cat, index) => {
+            return (
+              <Badge
+                key={index}
+                className="uppercase text-sm font-normal mb-2"
+              >
+                {cat}
+              </Badge>
+            );
+          })}
+        </div>
         <h4 className="h4 mb-1">{project.name}</h4>
         <p className="text-muted-foreground text-lg">{project.description}</p>
       </div>
