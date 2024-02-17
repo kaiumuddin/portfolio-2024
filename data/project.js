@@ -1,34 +1,35 @@
 const projectData = [
     {
         image: "/work/1.png",
-        category: "html,css",
+        tags: "html,css",
+        category: "basic",
         name: "World Cup 2022",
-        description:
-            "A simple website with responsive ui",
+        description: "A simple website with responsive ui",
         link: "https://kaiumuddin.github.io/world-cup-22/",
         github: "https://github.com/kaiumuddin/world-cup-22",
     },
     {
         image: "/work/1.png",
-        category: "html,tailwind css",
+        tags: "html,tailwind css",
+        category: "basic",
         name: "Digital School",
-        description:
-            "A Website made with Tailwind css",
+        description: "A Website made with Tailwind css",
         link: "https://digital-school-kaium.netlify.app/",
         github: "https://github.com/kaiumuddin/digital-school",
     },
     {
         image: "/work/1.png",
-        category: "html,tailwind css,javascript",
+        tags: "html,tailwind css,javascript",
+        category: "vanilla js",
         name: "Select Favorite Five",
-        description:
-            "A landing page integrating javascript dom manipulation",
+        description: "A landing page integrating javascript dom manipulation",
         link: "https://select-best-five-kaiumuddin.netlify.app/",
         github: "https://github.com/programming-hero-web-course2/best-five-dom-assignment-kaiumuddin",
     },
     {
         image: "/work/1.png",
-        category: "html,tailwind css,javascript,api",
+        tags: "html,tailwind css,javascript,api",
+        category: "vanilla js",
         name: "current world",
         description:
             "A website using some api and implemented navigation between api routes",
@@ -37,25 +38,26 @@ const projectData = [
     },
     {
         image: "/work/1.png",
-        category: "html,tailwind css,javascript",
+        tags: "html,tailwind css,javascript",
+        category: "vanilla js",
         name: "speed typer",
-        description:
-            "A simple project to explore browser and debugging",
+        description: "A simple project to explore browser and debugging",
         link: "https://type-monster-kaiumuddin.netlify.app/",
         github: "https://github.com/programming-hero-web-course1/b6-type-monster-debug-assignment-kaiumuddin",
     },
     {
         image: "/work/1.png",
-        category: "html,tailwind css,javascript,local storage",
+        tags: "html,tailwind css,javascript,local storage",
+        category: "vanilla js",
         name: "Activity Plus",
-        description:
-            "A simple react project to demonstrate local storage",
+        description: "A simple react project to demonstrate local storage",
         link: "https://activity-plus-kaiumuddin.netlify.app/",
         github: "https://github.com/Programming-Hero-Web-Course4/b6-ultra-active-club-kaiumuddin",
     },
     {
         image: "/work/1.png",
-        category: "html,tailwind css,javascript,react router",
+        tags: "html,tailwind css,javascript,react router",
+        category: "react",
         name: "quiz mania",
         description:
             "React project exploring react router and state management",
@@ -64,19 +66,19 @@ const projectData = [
     },
     {
         image: "/work/1.png",
-        category: "html,tailwind css,javascript,react router,full stack,firebase",
+        tags: "html,tailwind css,javascript,react router,firebase",
+        category: "full stack",
         name: "vacarion",
-        description:
-            "Full stack MERN project with Mongodb and Express js",
+        description: "Full stack MERN project with Mongodb and Express js",
         link: "https://vacarion.web.app/",
         github: "https://github.com/Porgramming-Hero-web-course/b6a11-service-review-server-side-kaiumuddin, https://github.com/Porgramming-Hero-web-course/b6a11-service-review-client-side-kaiumuddin",
     },
     {
         image: "/work/1.png",
-        category: "html,tailwind css,javascript,react router,full stack,firebase",
+        tags: "html,tailwind css,javascript,react router,firebase",
+        category: "full stack",
         name: "mobile wizard",
-        description:
-            "Full stack MERN project with Mongodb and Express js",
+        description: "Full stack MERN project with Mongodb and Express js",
         link: "https://mobile-wizard-818d2.web.app/",
         github: "https://github.com/programming-hero-web-course-4/b612-used-products-resale-server-side-kaiumuddin, https://github.com/programming-hero-web-course-4/b612-used-products-resale-clients-side-kaiumuddin",
     },
