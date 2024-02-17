@@ -8,9 +8,9 @@ import projectData from "@/data/project";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
-
 // import required modules
 import { Pagination } from "swiper/modules";
+
 import { Button } from "../ui/button";
 import ProjectCard from "./ProjectCard";
 
