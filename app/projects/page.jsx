@@ -18,7 +18,6 @@ const Projects = () => {
             ? project
             : project.category === category;
     });
-    console.log(filterdProjects);
 
     return (
         <section className="min-h-screen pt-12">
