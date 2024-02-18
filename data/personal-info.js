@@ -8,37 +8,35 @@ import {
     Briefcase,
 } from "lucide-react";
 
-const infoData = [
+export const infoData = [
     {
         icon: <User2 size={20} />,
-        text: "Ryan Davis",
-        field: 'name'
+        text: "Kaium Uddin",
+        field: "name",
     },
     {
         icon: <PhoneCall size={20} />,
         text: "+880 1755 241867",
-        field: 'phone'
+        field: "phone",
     },
     {
         icon: <MailIcon size={20} />,
         text: "kaium.uddin2909@gmail.com",
-        field: 'email'
+        field: "email",
     },
     {
         icon: <Calendar size={20} />,
         text: "Born on Sep 29, 1998",
-        field: 'dob'
+        field: "dob",
     },
     {
         icon: <GraduationCap size={20} />,
         text: "Bachelor on Computer Science",
-        field: 'degree'
+        field: "degree",
     },
     {
         icon: <HomeIcon size={20} />,
-        text: "Basundara, Main Road, Dhaka",
-        field: 'address'
+        text: "House#61, Block A Road 1, Bashundara R/A, Dhaka",
+        field: "address",
     },
 ];
-
-
