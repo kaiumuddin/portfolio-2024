@@ -12,6 +12,7 @@ import { Button } from "../ui/button";
 import Socials from "../Socials";
 import DevImg from "../DevImg";
 import Badge from "../Badge";
+import { Name } from "./Name";
 
 // components
 
@@ -25,9 +26,10 @@ const Hero = () => {
                         <div className="text-sm uppercase font-semibold mb-4 text-primary tracking-[4px]">
                             Web Developer
                         </div>
-                        <h1 className="h1 mb-4">
+                        {/* <h1 className="h1 mb-4">
                             Hello, my name is Kaium Uddin
-                        </h1>
+                        </h1> */}
+                        <Name />
                         <p className="subtitle  max-w-[490px] mx-auto xl:mx-0">
                             Brief description with insights into myself, my
                             vocational journey, and what I engage in
@@ -40,9 +42,19 @@ const Hero = () => {
                                     Contact me <Send size={18} />{" "}
                                 </Button>
                             </Link>
-                            <Button variant="secondary" className="gap-x-2">
+                            {/* <Button variant="secondary" className="gap-x-2">
                                 Download CV
                                 <Download size={18} />{" "}
+                            </Button> */}
+                            <Button
+                                variant="secondary"
+                                className="relative inline-flex overflow-hidden rounded-full p-[1px] focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50"
+                            >
+                                <span className="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#E2CBFF_0%,#393BB2_50%,#E2CBFF_100%)]" />
+                                <span className="gap-x-2 inline-flex h-full w-full cursor-pointer items-center justify-center rounded-full bg-slate-950 px-3 py-1 text-sm font-medium text-white backdrop-blur-3xl">
+                                    Download CV
+                                    <Download size={18} />{" "}
+                                </span>
                             </Button>
                         </div>
 
