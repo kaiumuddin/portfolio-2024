@@ -22,13 +22,10 @@ const Hero = () => {
             <div className="container mx-auto">
                 <div className="flex flex-col lg:flex-row justify-between gap-8 ">
                     {/* text */}
-                    <div className=" flex max-w-[600px] flex-col justify-center mx-auto xl:mx-0 text-center xl:text-left">
+                    <div className=" flex max-w-[700px] flex-col justify-center mx-auto xl:mx-0 text-center xl:text-left">
                         <div className="text-sm uppercase font-semibold mb-4 text-primary tracking-[4px]">
                             Web Developer
                         </div>
-                        {/* <h1 className="h1 mb-4">
-                            Hello, my name is Kaium Uddin
-                        </h1> */}
                         <Name />
                         <p className="subtitle  max-w-[490px] mx-auto xl:mx-0">
                             Brief description with insights into myself, my
@@ -66,15 +63,12 @@ const Hero = () => {
                     </div>
                     {/* image */}
                     <div className="xl:flex relative">
-                        <div className="bg-hero_shape2_light dark:bg-hero_shape2_dark lg:w-[500px] lg:h-[500px] bg-no-repeat mx-auto">
-                            {/* absolute -top-1 -right-2 */}
-                            <DevImg
-                                containerStyles={
-                                    "bg-hero_shape w-[510px] h-[462px] bg-no-repeat relative bg-bottom mx-auto"
-                                }
-                                imgSrc={"/hero/developer.png"}
-                            />
-                        </div>
+                        <DevImg
+                            containerStyles={
+                                "w-[510px] h-[462px] bg-no-repeat relative bg-bottom mx-auto"
+                            }
+                            imgSrc={"/hero/developer.png"}
+                        />
                         {/* badge 1 */}
                         <Badge
                             containerStyles={"absolute top-[24%] -left-[5rem]"}
@@ -101,14 +95,17 @@ const Hero = () => {
                     </div>
                 </div>
                 {/* social icons */}
-                <div>
-                    <div className="hidden lg:flex absolute left-2/4 bottom-44 xl:bottom-12 animate-bounce">
-                        <RiArrowDownSLine className="text-3xl text-primary" />
-                    </div>
-                </div>
             </div>
         </section>
     );
 };
 
 export default Hero;
+
+function Arrow() {
+    return (
+        <div className="hidden lg:flex absolute left-2/4 bottom-44 xl:bottom-12 animate-bounce">
+            <RiArrowDownSLine className="text-3xl text-primary" />
+        </div>
+    );
+}
